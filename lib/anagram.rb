@@ -11,3 +11,6 @@ class Anagram
         end
     end
 end
+
+testing = Anagram.new("Mutaga")
+testing.match (["utagam","modify","matuga"])
